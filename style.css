@@ -1,26 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
 body {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif
 }
 
 header{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
 }
 
-table{
+.head {
+    padding-left: 30vh;
+    padding-right: 30vh;
+}
+
+.top-table{
     border-collapse:collapse;
     width:70%;
     /* display: flex; */
     /* justify-content:center; */
-} 
-
-table, th, td{
-    border: 1px solid;
 }
 
-.table_div{
+.top-table, .top-header, .top-data-item{
+    border: 1px solid;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-header {
+    font-size: 200%;
+}
+
+.top-data-item {
+    font-size: 150%;
+}
+
+
+.top-table-div{
     display: flex;
     justify-content: center;
     padding-top:50px;
@@ -29,10 +51,9 @@ table, th, td{
     padding-right:20px
 }
 
-h1{
+h1 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .flag{
@@ -43,4 +64,68 @@ h1{
 .picture{
     display: flex;
     justify-content: center;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNames {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.top-row:hover {
+    background-color: yellow
+}
+
+a {
+    text-decoration:none
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: red;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+
+.stats-header {
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.footballer {
+    width: 100%;
+    min-width: 500px;
+}
+
+.stats-table-div{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px
+}
+
+.stats-table, .stats-header, .stats-data-item{
+    border: 1px solid;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-collapse:collapse;
+    width:70%;
 }

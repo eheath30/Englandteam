@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Our Sports Page</title>
-        <!--  github practise -->
+        <link rel="stylesheet" href="./style.css">
     </head>
 <body>
-<header>
-    <h1>TOP3 England Players <img class ="flag" src="https://www.flagz.co.nz/wp-content/uploads/2013/08/england-flag-750x505.png" alt="England flag"></h1>
-    <link rel="stylesheet" href="./style.css">
-</header>
+
+<section class="head">
+    <header>
+        <h1>TOP3 England Players </h1>
+        <img class ="flag" src="https://www.flagz.co.nz/wp-content/uploads/2013/08/england-flag-750x505.png" alt="England flag">
+    </header>
+</section>
+
 <section>
-    <div class="table_div">
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Height</th>
+    <div class="top-table-div">
+    <table class="top-table">
+        <tr class="top-row">
+            <th class="top-header">Name</th>
+            <th class="top-header">Age</th>
+            <th class="top-header">Height</th>
         </tr>
-        <tr >
-            <td>Harry Kane</td>
-            <td>28</td>
-            <td>187.3 cm</td>
+        <tr class="top-row">
+            <td class="top-data-item">Harry Kane</td>
+            <td class="top-data-item">28</td>
+            <td class="top-data-item">187.3 cm</td>
         </tr>
-        <tr>
-            <td>Rageen Sterling</td>
-            <td>27</td>
-            <td>169.5 cm</td>
+        <tr class="top-row">
+            <td class="top-data-item">Raheem Sterling</td>
+            <td class="top-data-item">27</td>
+            <td class="top-data-item">169.5 cm</td>
         </tr>
-        <tr>
-            <td>Harry Maguire</td>
-            <td>29</td>
-            <td>194 cm</td>
+        <tr class="top-row">
+            <td class="top-data-item">Harry Maguire</td>
+            <td class="top-data-item">29</td>
+            <td class="top-data-item">194 cm</td>
         </tr>
 
     </table>
@@ -40,21 +45,130 @@
     </div>
     <br>
     <div class="picture">
-    <a href="https://www.englandfootball.com/">England Official Homepage</a>
+    <a class="england-link" href="https://www.englandfootball.com/">England Official Homepage</a>
     </div>
     <hr>
 
 </section>
-<p>We don't support sports teams so we chose England!</p>
+<br>
+<h1>2022 Stats</h1>
 
-</body>
+<div class="grid-container">
+    <div class="grid-item">
+        <img class="footballer" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p78830.png" alt="Harry Kane Footballer">
+
+        <div class="stats-table-div">
+            <table class="stats-table">
+                <tr>
+                    <th class="stats-header">Stats</th>
+                    <th class="stats-header">Average</th>
+                    <th class="stats-header">2021-2022</th>
+                </tr>
+                <tr >
+                    <td class="stats-data-item">Apperances</td>
+                    <td class="stats-data-item">282</td>
+                    <td class="stats-data-item">37</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Goals</td>
+                    <td class="stats-data-item">183</td>
+                    <td class="stats-data-item">17</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Wins</td>
+                    <td class="stats-data-item">157</td>
+                    <td class="stats-data-item">21</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Losses</td>
+                    <td class="stats-data-item">68</td>
+                    <td class="stats-data-item">11</td>
+                </tr>
+            </table>
+            </div>
+
+    </div>
+
+    <div class="grid-item">
+        <img class="footballer" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png" alt="Raheem Sterling Footballer">
+
+        <div class="stats-table-div">
+            <table class="stats-table">
+                <tr>
+                    <th class="stats-header">Stats</th>
+                    <th class="stats-header">Average</th>
+                    <th class="stats-header">2021-2022</th>
+                </tr>
+                <tr >
+                    <td class="stats-data-item">Apperances</td>
+                    <td class="stats-data-item">282</td>
+                    <td class="stats-data-item">37</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Goals</td>
+                    <td class="stats-data-item">183</td>
+                    <td class="stats-data-item">17</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Wins</td>
+                    <td class="stats-data-item">157</td>
+                    <td class="stats-data-item">21</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Losses</td>
+                    <td class="stats-data-item">68</td>
+                    <td class="stats-data-item">11</td>
+                </tr>
+            </table>
+            </div>
+
+    </div>
+    <div class="grid-item">
+        <img class="footballer" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p95658.png" alt="Harry Maguire Footballer">
+
+        <div class="stats-table-div">
+            <table class="stats-table">
+                <tr>
+                    <th class="stats-header">Stats</th>
+                    <th class="stats-header">Average</th>
+                    <th class="stats-header">2021-2022</th>
+                </tr>
+                <tr >
+                    <td class="stats-data-item">Apperances</td>
+                    <td class="stats-data-item">282</td>
+                    <td class="stats-data-item">37</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Goals</td>
+                    <td class="stats-data-item">183</td>
+                    <td class="stats-data-item">17</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Wins</td>
+                    <td class="stats-data-item">157</td>
+                    <td class="stats-data-item">21</td>
+                </tr>
+                <tr>
+                    <td class="stats-data-item">Losses</td>
+                    <td class="stats-data-item">68</td>
+                    <td class="stats-data-item">11</td>
+                </tr>
+            </table>
+            </div>
+    </div>
+</div>
 
 
-<footer>
+<hr>
+<p class="comment">We don't support sports teams so we chose England!</p>
+
+
+<footer class="footerNames">
     <span>
-        Produced by Thilak & Elliot
+        Produced by <a href="https://github.com/thilak9">Thilak</a> & <a href="https://github.com/eheath30">Elliot</a>.
     </span>
 </footer>
+</body>
 </html>
 
 
